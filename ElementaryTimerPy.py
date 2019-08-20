@@ -2,4 +2,6 @@
 
 from time import asctime, sleep
 
-# 
+# Display current time on screen
+
+print(asctime())
