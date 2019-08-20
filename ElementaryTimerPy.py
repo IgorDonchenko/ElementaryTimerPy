@@ -1,7 +1,7 @@
 # # Import asctime and sleep modules from time library
 import time
 import os
-c
+
 def foo():
 	aggr = '#'
 
