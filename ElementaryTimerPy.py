@@ -1,11 +1,13 @@
-# Import asctime and sleep modules from time library
+# # Import asctime and sleep modules from time library
+import time
+import os
+c
+def foo():
+	aggr = '#'
 
-from time import asctime, sleep
+	while True:
+		print(time.asctime())
+		time.sleep(1)
+		os.system('cls')
 
-# Display current time on screen
-
-while True:
-    print(asctime())
-	sleep(1)              #
-	print('\u001b[2A')    #
-	
+foo()
