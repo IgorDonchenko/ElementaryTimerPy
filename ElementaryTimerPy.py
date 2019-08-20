@@ -4,4 +4,8 @@ from time import asctime, sleep
 
 # Display current time on screen
 
-print(asctime())
+while True:
+    print(asctime())
+	sleep(1)              #
+	print('\u001b[2A')    #
+	
